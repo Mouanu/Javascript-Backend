@@ -22,7 +22,8 @@ import fs from 'fs';
                 });
 
                 // file has been uploaded on cloudinary
-                console.log('File uploaded successfully to Cloudinary', response.url);
+                // console.log('File uploaded successfully to Cloudinary', response.url);
+                fs.unlinkSync(localFilePath); // Delete the local file after upload
                 return response;
 
         } catch (error) {
