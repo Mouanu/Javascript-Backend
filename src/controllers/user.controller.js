@@ -510,5 +510,6 @@ updateAccountDetails,
 updateUserAvatar,
 updateUserCoverImage,
 getUserChannelProfile,
-getWatchHistory
+getWatchHistory,
+changeCurrentPassword
  };
