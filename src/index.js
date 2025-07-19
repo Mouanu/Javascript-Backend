@@ -1,5 +1,9 @@
 
 // require('dotenv').config({path: "./env"})
+// this index.js is used for DataBase Connection
+
+// starting point of my project
+
 
 import dotenv from "dotenv"
 import connectDB from "./database/index.js" 
