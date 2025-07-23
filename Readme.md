@@ -69,8 +69,8 @@ MONGODB_URI=
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/video-upload-backend.git
-cd video-upload-backend
+git https://github.com/Mouanu/Javascript-Backend.git
+
 ```
 
 ### 2. Install dependencies
