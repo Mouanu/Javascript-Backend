@@ -25,8 +25,9 @@ A secure and efficient backend API for uploading videos, built with **Node.js**,
  ┣ 📂 public
  ┣ 📄 app.js
  ┣ 📄 .env
- ┣ 📄 server.js
  ┗ 📄 README.md
+ ┗ 📄 .gitignore
+ ┗ 📄 .prettierrc
 ```
 
 ---
@@ -97,6 +98,8 @@ Tested using **Postman**. Make sure to include the JWT token for protected route
 
 ---
 
+
+
 ## 🔒 Authentication Flow
 
 - Login/Register → Receive Access & Refresh Tokens
@@ -112,6 +115,28 @@ Tested using **Postman**. Make sure to include the JWT token for protected route
 - Temporary files stored in `./public/temp`
 
 ---
+
+ ## 🌍 Deployment
+
+```This backend API is deployed on Render and actively tested using Postman.
+
+🔗 Live API Base URL: https://javascript-backend-mvo0.onrender.com/api/v1
+
+✅ Postman Tested Endpoints:
+POST {{server}}/users/register – User Registration
+
+POST {{server}}/users/login – User Login
+
+POST {{server}}/users/logout – User Logout 
+
+POST {{server}}/users/refresh-token – refresh token
+
+GET {{server}}/users/history – get history
+
+GET {{server}}/users/c/three - GET getUserChannelProfile
+
+All endpoints were successfully tested using Postman with proper headers and authentication flow.
+```
 
 ## 🙌 Acknowledgements
 
